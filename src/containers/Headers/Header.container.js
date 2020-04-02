@@ -3,11 +3,9 @@ import Logo from "../../component/Logo/Logo.component";
 import HeaderItem from "../../component/HeaderItem/HeaderItem.component";
 import { HeaderNav, HeaderContent, HeaderItemWrapper } from "./Header.style";
 
-export default class HeaderContainer extends Component {
-  render() {
-    return (
-      <HeaderNav>
-        <HeaderContent>
+const Header = () => (
+  <HeaderNav>
+    <HeaderContent>
           <Logo />
           <HeaderItemWrapper>
             <HeaderItem>Home</HeaderItem>
@@ -15,7 +13,7 @@ export default class HeaderContainer extends Component {
             <HeaderItem>Contact Us</HeaderItem>
           </HeaderItemWrapper>
         </HeaderContent>
-      </HeaderNav>
-    );
-  }
-}
+  </HeaderNav>
+);
+
+export default Header;

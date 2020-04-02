@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import Constants from '../../constants';
 
-export const HeaderNav = styled.nav`
+
+export const HeaderNav = styled.div`
     background-color: ${Constants.COLOR.PRIMARY_COLOR};
     color: white;
     padding: 10px 0;
 `
-
 export const HeaderContent = styled.div`
     display: flex;
     align-items: center;

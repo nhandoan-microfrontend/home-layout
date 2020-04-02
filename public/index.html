@@ -39,18 +39,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <main id="container"></main>
+    <main id="home-layout"></main>
 
+    <script crossorigin src="http://localhost:5000/react.js"></script>
+    <script crossorigin src="http://localhost:5000/reactDom.js"></script>
+    <script crossorigin src="http://localhost:5000/reactIs.js"></script>
+    <script crossorigin src="http://localhost:5000/styledComponent.js"></script>
     <!-- <script
       crossorigin
-      src="http://localhost:5000/react.js"
-    ></script>
-    <script
-      crossorigin
-      src="http://localhost:5000/reactDom.js"
-    ></script> -->
+      src="https://unpkg.com/styled-components@5.0.0/dist/styled-components.min.js" 
+    ></script>  -->
 
-    <script
+    <!-- <script
       crossorigin
       src="https://unpkg.com/react@16/umd/react.production.min.js"
     ></script>
@@ -58,9 +58,25 @@
       crossorigin
       src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
     ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-is@16/umd/react-is.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/styled-components@5.0.0/dist/styled-components.min.js" 
+    ></script> -->
+    <!-- <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+    ></script> -->
     <script type="text/javascript">
       window.onload = () => {
-        window.renderBrowse("container");
+        window.renderHomeLayout("home-layout");
       };
     </script>
   </body>
