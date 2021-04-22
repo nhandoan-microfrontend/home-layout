@@ -4,7 +4,6 @@ import App from './App';
 import { unregister } from './serviceWorker';
 import './index.css'
 
-console.log('hei')
 window.renderHomeLayout = (containerId, history) => {
   ReactDOM.render(
     <App history={history} />,
